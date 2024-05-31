@@ -25,8 +25,32 @@ int main(){
     //     cout<<i<<" ";
     // }
 
-    for (i=0; i>=-10; i=i-1){
-        cout<<i<<endl;
+    // for (i=0; i>=-10; i=i-1);{
+    //     cout<<i<<endl;
+    // }
+
+    // if (cin>>i){
+    //     cout<<"vedant"<<endl;
+    // }
+
+    // if (cout<<"Hi"){
+    //     cout<<"Vedant";
+    // }
+
+    // for (int i=1; i<=3; i++){
+    //     for (int j=1; j<=3; j++){
+    //         cout<<i<<j<<" ";
+    //     }
+    //     cout<<endl;
+    // }
+
+    for (int i=1; i<=2; i++){
+        for (int j=1; j<=2; j++){
+            cout<<i*j<<" ";
+        }
+        cout<<endl;
     }
+
+    return 0;
 }
 
